@@ -1,0 +1,13 @@
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(/images/toggler.svg);
+}
+
+.navbartext {
+    font-size: 20px;
+    color: $texto2;
+}
+
+.navcolor{
+    background: linear-gradient(to bottom, #343a41 0%, #666699 100%);
+    color: $texto2;
+}

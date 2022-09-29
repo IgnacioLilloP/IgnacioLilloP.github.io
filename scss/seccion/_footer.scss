@@ -1,0 +1,17 @@
+@import "seccion/colors";
+
+.footer-color {
+    background: linear-gradient(to top, #343a41 0%, #666699 100%);
+}
+
+.contacto-footer {
+    color: $texto2;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}

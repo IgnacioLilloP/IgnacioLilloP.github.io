@@ -1,0 +1,293 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  max-width: 100%;
+  overflow-x: hidden; }
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-size: cover;
+  background-color: #faf8f8; }
+
+h1 {
+  font-weight: bold;
+  font-size: 95px;
+  padding-top: 100px; 
+color: #222121;
+}
+
+hr {
+  width: 50%;
+  margin: auto; }
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 80px; } }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+p {
+  font-weight: 400; }
+
+button{
+    border: transparent;
+    background-color: transparent;
+  }  
+
+.newstitle {
+  font-weight: 500; }
+
+.newstext {
+  font-weight: 400; }
+
+.btnfont {
+  font-weight: 400; }
+
+.navbartext {
+  font-size: 20px;
+  color: #f8f3f1e0; }
+
+.navcolor {
+  background: linear-gradient(to bottom, #343a41 0%, #666699 100%);
+  color: #faf8f7f4; }
+
+.title {
+  color: #1f1f1f;
+  font-size: 40px;
+  margin: 15px 0px 15px 40px; }
+
+.centrar {
+  display: flex;
+  justify-content: center; }
+
+.texto-centrado {
+  text-align: center; }
+
+.tittlestore {
+  color: #181717;
+  font-size: 40px;
+  margin: 40px 0px 30px 15px; }
+
+.a {
+  font-size: 18px;
+  color: #3c6954;
+  display: flex;
+  justify-content: end;
+  margin-right: 30px; }
+
+.margin {
+  margin-bottom: 100px; }
+
+.p-contacto {
+  font-size: 30px;
+  list-style: none; }
+
+.iframemap {
+  width: 100%;
+  height: 350px;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 30px;
+  background-color: white; }
+
+.carrusel {
+  margin-bottom: 100%; }
+
+.formlenght {
+  width: 80%;
+  display: inline-block; }
+
+.fontcontact {
+  font-size: 20px; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #f8f3f1e0; }
+
+.btn-warning {
+  color: #fff;
+  background-color: #aa8846; }
+
+.btn-success {
+  color: #fff;
+  background-color: #3cb16b; }
+
+.btn {
+  text-transform: uppercase;
+  vertical-align: bottom;
+  box-shadow: 0 2px 5px 0rgba 0, 0, 0, 0.2, 0 2px 10px 0rgba 0, 0, 0, 0.1;
+  font-weight: 500;
+  padding: 0.625rem 1.5rem 0.5rem;
+  font-size: .75rem;
+  line-height: 1.5; }
+
+.botonsearch {
+  background-color: #405e57; }
+
+.btnfooter {
+  width: 80px;
+  height: 80px; }
+
+.card-img-top {
+  width: 100%;
+  object-fit: contain;
+  height: 30vh;
+  margin-top: 20px; }
+
+.news-cover {
+  display: flex;
+  align-items: center; }
+
+.news {
+  width: 100%;
+  border-radius: 10px; }
+
+.foto-perfil {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-self: center; }
+
+.small-imagen {
+  width: 80px;
+  height: 80px; }
+
+.us {
+  width: 100%;
+  height: 100%; }
+
+.max-width {
+  max-width: 80%; }
+
+.logo {
+  width: 55px;
+  height: 55px; }
+
+.box {
+  transition: all 1s; }
+  .box:hover {
+    transform: scale(1.1); }
+
+.fades {
+  animation: fades 1s;
+  animation-fill-mode: forwards; }
+
+
+@keyframes fades {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.footer-color {
+  background: linear-gradient(to top, #343a41 0%, #666699 100%);
+  isolation: isolate;
+ }
+
+.contacto-footer {
+  color: #f8f3f1e0;
+  font-size: 18px;
+  line-height: 140%; }
+
+.footer-right {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px; }
+
+.disclaimer{
+  display: none !important;
+}
+
+.dark{ 
+  background-color: lightsteelblue;
+}
+
+#itemCounter{
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.cartimg{
+  width: 40px;
+  height: 40px;
+}
+
+
+.img-carrito{
+  width: 90px;
+  height: 130px;
+}
+.widthcanvas{
+  width:  550px !important;
+}
+
+.btn-aumentar{
+  width: 25px;
+  height: 25px;
+
+
+}
+
+.btn-disminuir{
+
+  width: 25px;
+  height: 25px;
+}
+
+
+.offcanvas-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+} 
+
+.offcanvas-backdrop.show {
+  opacity: 0.1;
+}
+
+.btn-cerrar{
+  margin: -20px 0 0 10px;
+}
+
+.btn-carrito-compra{
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: white;
+}
+.btn-carrito-vaciar{
+  width: 150px;
+  height: 40px;
+  background-color: #aa8846;
+    color: white;
+
+}
+
+.padre{
+ margin-bottom: 50%;
+}
+
+a{
+  color: white;
+}
+
+.fontcarrito{
+  font-size: 16px;
+}
+
+.imagencompra{
+width: 150px;
+height:70px ;}
+
+.imagencompra2{
+  width: 140px;
+  height:70px ;}
+
+
